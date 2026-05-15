@@ -98,4 +98,5 @@ switch (choice) {
         default:
         cout << "Invalid choice. Please try again." << endl;
         break;
-}
+        return 0;
+} 
