@@ -72,15 +72,20 @@ bool isEmpty()
 
 int main()
 {
+    int choice, value;
+    Stack stack;
+    while (choice != 4)
+    {
     cout << "1. push\n";
     cout << "2. pop\n";
     cout << "3. peek\n";
     cout << "4. exit\n";
     cout << "Enter your choice: ";
     cin >> choice;
-}
 
-switch (choice) {
+
+switch (choice) 
+{
     case 1:
         cout << "Enter value to push: ";
         cin >> value;
@@ -88,7 +93,7 @@ switch (choice) {
         break;
         case 2:
         stack.pop();
-        break:
+        break;
         case 3:
         stack.peek();
         break;
@@ -100,3 +105,6 @@ switch (choice) {
         break;
         return 0;
 } 
+cout << endl;
+    }
+};
