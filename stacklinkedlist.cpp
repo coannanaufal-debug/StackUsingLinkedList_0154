@@ -31,3 +31,8 @@ int push(int value)
     cout << "push value: " << value << endl;
     return value;
 }
+
+void pop()
+{
+    Node* temp = top;
+}
