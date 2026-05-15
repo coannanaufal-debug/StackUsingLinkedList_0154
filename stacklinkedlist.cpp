@@ -50,7 +50,7 @@ void peek()
 {
     if (isEmpty()) 
     {
-        cout << "list  is empty. " << endl;
+        cout << "list is empty. " << endl;
         return;
     }
     else
@@ -61,5 +61,11 @@ void peek()
             cout << current->data << " " << endl;
             current = current->next;
         }
+        cout << endl;
     }
 }
+bool isEmpty()
+{
+    return top == NULL;
+}
+};
