@@ -69,3 +69,9 @@ bool isEmpty()
     return top == NULL;
 }
 };
+
+int main()
+{
+    cout << "1. push\n";
+    cout << "2. pop\n";
+}
