@@ -45,3 +45,15 @@ void pop()
     top = temp->next;
     delete temp;
 }
+
+void peek()
+{
+    if (isEmpty()) 
+    {
+        cout << "list  is empty. " << endl;
+        return;
+    }
+    else
+    {
+  
+}
