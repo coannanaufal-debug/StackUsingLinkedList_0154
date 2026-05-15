@@ -35,4 +35,13 @@ int push(int value)
 void pop()
 {
     Node* temp = top;
+    if (isEmpty()) 
+    {
+        cout << "Stack is empty. " << endl;
+        return;
+    }
+
+    cout << "popped value: " << temp->data << endl;
+    top = temp->next;
+    delete temp;
 }
